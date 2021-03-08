@@ -1,0 +1,29 @@
+name: dml
+channels:
+- defaults
+- pytorch
+dependencies:
+- python=3.8
+- pip
+- numpy
+- jupyter
+- matplotlib
+- scikit-learn
+- scipy
+- pandas
+- seaborn
+- nltk
+- h5py
+- spacy
+- unidecode
+- pytorch=1.7.1
+- torchvision=0.8.2
+- cudatoolkit=10.2
+- torchaudio=0.7.2
+- cudnn
+- pip:
+  - future
+  - tb-nightly
+  - gym
+  - pillow
+  - kaggle
